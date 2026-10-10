@@ -84,6 +84,21 @@ Siga a estrutura do `m01-tipos-operadores-strings` e o tema/semana definidos no 
   (revisão espaçada).
 - Escapes Unicode (`\uXXXX`) em arquivos: confira com `grep` se foram gravados como texto, e não como o caractere.
 
+## Nomes de branch
+
+O aluno pediu nomes de branch **fáceis de entender**, em português, minúsculos e com hífens. Nunca use nomes
+gerados automaticamente (ex.: `claude/upbeat-lovelace-7o6moc`). Padrão:
+
+| Trabalho | Branch | Exemplo |
+|---|---|---|
+| Criar um módulo | `certificacao/mXX-<tema>` | `certificacao/m02-controle-de-fluxo-e-arrays` |
+| Corrigir simulado | `correcao/mXX-simulado` | `correcao/m01-simulado` |
+| Corrigir exercícios | `correcao/mXX-exercicios` | `correcao/m01-exercicios` |
+| Simulado B (recuperação) | `certificacao/mXX-simulado-b` | `certificacao/m01-simulado-b` |
+| Simulado geral de marco | `certificacao/simulado-geral-N` | `certificacao/simulado-geral-1` |
+| Ajustes na trilha (cronograma, critérios) | `trilha/<descricao>` | `trilha/ajusta-cronograma-fase-3` |
+| Soluções do aluno (sugestão) | `solucao/mXX` | `solucao/m01` |
+
 ## Idioma e tom
 
 - Português do Brasil em tudo, exceto os enunciados dos simulados (inglês + tradução).
